@@ -8,4 +8,5 @@ export interface Music {
   file_type: string;
   duration?: number;
   uploaded_at: number;
+  cover_url?: string;
 }
