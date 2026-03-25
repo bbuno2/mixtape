@@ -36,7 +36,7 @@ export function Header() {
             </span>
           </div>
 
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="flex items-center gap-1">
             <a href="#" className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs transition-colors"
               style={{ color: mutedColor }} onMouseEnter={e => (e.currentTarget.style.color = textColor)} onMouseLeave={e => (e.currentTarget.style.color = mutedColor)}>
               <Compass className="w-3.5 h-3.5" />
