@@ -25,7 +25,7 @@ export function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 transition-all duration-400"
         style={{ background: navBg, backdropFilter: "blur(20px)", borderBottom: `1px solid ${border}` }}>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-8 flex-1">
           <div className="flex items-center gap-2">
             <div className="w-7 h-7 rounded-lg flex items-center justify-center"
               style={{ background: "linear-gradient(135deg,#f97316,#ea580c)", boxShadow: "0 0 14px rgba(249,115,22,0.35)" }}>
